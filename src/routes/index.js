@@ -2,13 +2,12 @@ import { createMemoryHistory, createRouter } from "vue-router";
 
 import App from "../App.vue";
 import Home from "../components/Home.vue";
-import ProductList from "../components/Home.vue";
+import ProductForm from "../components/ProductForm.vue";
 
 const routes = [
   {
     path: "/",
-    name: "app",
-    component: App,
+    redirect: "/home",
   },
   {
     path: "/home",
@@ -18,7 +17,7 @@ const routes = [
   {
     path: "/products",
     name: "products",
-    component: ProductList,
+    component: ProductForm,
   },
 ];
 

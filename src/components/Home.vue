@@ -1,3 +1,3 @@
 <template>
-  <h1>John Jeric Polison, BSIT 3</h1>
+  <h1 class="text-2xl">John Jeric Polison, BSIT 3</h1>
 </template>
